@@ -5,25 +5,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Stats preview card component</title>
 
  
 </head>
 <body>
-
-  Get insights that help your business grow.
-
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+<div class="card-container">
+  <div class="left-card">
+    <h1 class="header">
+      Get <span>insights</span> that help your business grow.
+    </h1>
+    <p class="body-text">
+      Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+      experience, and overall efficiency.
+    </p>
+    <div class="bottom-stats__container">
+      <div class="bottom-stats__1">
+        10k+
+        <footer>
+          companies
+        </footer>
+      </div>
+      <div class="bottom-stats__2">
+        314
+        <footer>
+          templates
+        </footer>
+      </div>
+      <div class="bottom-stats__3">
+        12m+ 
+        <footer>
+          queries
+        </footer>
+      </div>
+    </div>
   </div>
+  <div class="right-card">
+    <div class="overlay"></div>
+  </div>
+    
+</div>
+
 </body>
 </html>
